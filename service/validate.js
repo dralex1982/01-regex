@@ -33,9 +33,11 @@ const validateNumberLEQ255 = text => {
     return pattern.test(text);
 }
 
-export { validateEcmaScriptText,
+export {
+    validateEcmaScriptText,
     validateDomainZone,
     validateCreditCardNumber,
     validateEnglishDateFormat,
     validateISODateFormat,
-validatePhoneNumberFormat, validateNumberLEQ255};
+    validatePhoneNumberFormat, validateNumberLEQ255
+};
